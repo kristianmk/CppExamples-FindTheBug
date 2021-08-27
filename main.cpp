@@ -3,8 +3,7 @@
 int integerDivision(int num, int den);
 
 int main() {
-    const int a(50);
-    const int b(25);
+    const int a(50); const int b(25);
 
     std::cout << "Starting up.." << std::endl;
     for (int i = 0; i<=25; ++i)
@@ -16,7 +15,6 @@ int main() {
     return 0;
 }
 
-int integerDivision(int a, int b)
-{
+int integerDivision(int a, int b) {
     return a / b;
 }
